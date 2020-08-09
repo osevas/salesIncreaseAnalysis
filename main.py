@@ -1,8 +1,8 @@
 '''
 Author: Onur Sevket Aslan
 Start Date: 2020/08/01
-Revision Date: 2020/08/01
-Revision: 1
+Revision Date: 2020/08/09
+Revision: 2
 
 Title: Sales increase analysis for Nuveen 
 '''
