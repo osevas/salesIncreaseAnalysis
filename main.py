@@ -15,4 +15,7 @@ filename_x='../../Transaction Data.xlsx'
 data_x=pd.read_excel(filename_x, sheet_name='Transactions18') #reading X's
 data_y=pd.read_excel(filename_x, sheet_name='Transactions19') #reading Y's
 
+#%%Join tables
+data=pd.merge(data_x,data_y,how='outer',left_on='CONTACT_ID',right_on='CONTACT_ID')
+# print(data.columns.values)
 #%%Exploratory Data Analysis (EDA)
